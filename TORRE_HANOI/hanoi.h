@@ -14,5 +14,7 @@ int pilhaCheia(Pilha *p);
 void empilhar(Pilha *p, int disco);
 int desempilhar(Pilha *p);
 void exibirTorres(Pilha *a, Pilha *b, Pilha *c, int n);
+void moverDisco(Pilha *origem, Pilha *destino, char nomeOrigem, char nomeDestino);
+void reiniciarJogo(Pilha *a, Pilha *b, Pilha *c, int n);
 
 #endif

@@ -82,3 +82,26 @@ void exibirTorres(Pilha *a, Pilha *b, Pilha *c, int n) {
     for (int i = 0; i < larguraBase * 2; i++) printf(" ");
     printf("  C\n");
 }
+
+void moverDisco(Pilha *origem, Pilha *destino, char nomeOrigem, char nomeDestino) {
+    if (pilhaVazia(origem)) {
+        printf("A torre %c esta vazia!\n", nomeOrigem);
+        return;
+    }
+    if (!pilhaVazia(destino) && origem->discos[origem->topo] > destino->discos[destino->topo]) {
+        printf("Movimento invalido! Disco maior nao pode ficar sobre disco menor.\n");
+        return;
+    }
+    int disco = desempilhar(origem);
+    empilhar(destino, disco);
+    printf("Mover disco %d da torre %c para a torre %c\n", disco, nomeOrigem, nomeDestino);
+}
+
+void reiniciarJogo(Pilha *a, Pilha *b, Pilha *c, int n) {
+    inicializarPilha(a);
+    inicializarPilha(b);
+    inicializarPilha(c);
+    for (int i = n; i >= 1; i--) {
+        empilhar(a, i);
+    }
+}
