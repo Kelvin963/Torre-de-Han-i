@@ -11,3 +11,5 @@ typedef struct {
 void inicializarPilha(Pilha *p);
 int pilhaVazia(Pilha *p);
 int pilhaCheia(Pilha *p);
+void empilhar(Pilha *p, int disco);
+int desempilhar(Pilha *p);

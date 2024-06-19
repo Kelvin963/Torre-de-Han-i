@@ -13,3 +13,16 @@ int pilhaVazia(Pilha *p) {
 int pilhaCheia(Pilha *p) {
     return p->topo == MAX_DISCOS - 1;
 }
+
+void empilhar(Pilha *p, int disco) {
+    if (!pilhaCheia(p)) {
+        p->discos[++(p->topo)] = disco;
+    }
+}
+
+int desempilhar(Pilha *p) {
+    if (!pilhaVazia(p)) {
+        return p->discos[(p->topo)--];
+    }
+    return -1;
+}
