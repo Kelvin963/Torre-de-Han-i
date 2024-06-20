@@ -52,7 +52,8 @@ Abra um terminal e escreva:
 
 
 Para executar o programa (após fazer os passos de instalação para compilar o código), use o comando:
-.\compilar1
+
+- .\compilar1
 
 Você será solicitado a inserir o número de discos. O programa exibirá a sequência de movimentos necessária para resolver o quebra-cabeça.
 
