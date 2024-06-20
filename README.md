@@ -5,6 +5,8 @@ Este projeto é uma implementação de um quebra-cabeça chamado Torre de Hanói
 
 
 **Indíce:**
+
+
 1. Descrição
 2. Pré-Requisitos
 3. Instalação
@@ -28,9 +30,9 @@ O quebra-cabeça começa com os discos em uma torre, ordenados do maior (na base
 ## Pré-Requisitos
 
 
-•	Um compilador C (como GCC)
-•	Exemplo de plataforma para implementação do código: Visual Studio Code
-•	Usar as seguintes extensões: C/C++ Compile Run extension; Code Runner.
+- Um compilador C (como GCC)
+- Exemplo de plataforma para implementação do código: Visual Studio Code
+- Usar as seguintes extensões: C/C++ Compile Run extension; Code Runner.
 
 
 ## Instalação
@@ -41,9 +43,9 @@ https://github.com/Kelvin963/Torre-de-Hanoi/tree/main/TORRE_HANOI
 
 2.	Compile o código:
 
-Abra um terminal e escreva:
-cd TORRE_HANOI
-gcc hanoi.c hanoi.h main.c -o compilar1
+- Abra um terminal e escreva:
+- cd TORRE_HANOI
+- gcc hanoi.c hanoi.h main.c -o compilar1
 
 
 ## Uso
@@ -70,8 +72,8 @@ Exemplo: Digite A B, o disco será movimentado de A para B e etc.
 ## Funções Principais
 
 
-•	void exibirTorres(Pilha *a, Pilha *b, Pilha *c, int n);
-•	void moverDisco(Pilha *origem, Pilha *destino, char nomeOrigem, char nomeDestino);
+- void exibirTorres(Pilha *a, Pilha *b, Pilha *c, int n);
+- void moverDisco(Pilha *origem, Pilha *destino, char nomeOrigem, char nomeDestino);
 
 
 ## Exemplo de Saída
