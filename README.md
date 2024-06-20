@@ -43,7 +43,7 @@ https://github.com/Kelvin963/Torre-de-Hanoi/tree/main/TORRE_HANOI
 
 2.	Compile o código:
 
-- Abra um terminal e escreva:
+Abra um terminal e escreva:
 - cd TORRE_HANOI
 - gcc hanoi.c hanoi.h main.c -o compilar1
 
