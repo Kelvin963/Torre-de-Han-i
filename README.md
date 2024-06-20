@@ -82,6 +82,6 @@ Torres:
      __|__      |        |
     ___|___     |        |
 
-  A        B        C
+        A              B               C
 
 Digite o movimento (ex: A B) ou 'R' para reiniciar:
